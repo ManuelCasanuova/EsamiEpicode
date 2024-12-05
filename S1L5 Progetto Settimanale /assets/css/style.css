@@ -1,0 +1,148 @@
+
+html {font-size: 62.5%;
+}
+
+
+body { 
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    line-height:1.65; 
+    text-align: center;
+    color: #393d41;
+}
+
+
+header div{
+    background-color:black;
+}
+
+#titolo{
+    font-family: "Montserrat", sans-serif;
+    line-height:1.5;
+    color: #25a2c3;
+    font-weight: bold;
+    font-size:3rem;
+}
+
+header nav{
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    vertical-align: auto;
+}
+
+
+nav button{
+
+    width:10rem;
+    height:2rem;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    border:hidden;
+    color: white;
+    background-color: #f04c2f;
+    border-radius:4%;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+}
+
+body h3{
+    font-family: "Montserrat", sans-serif;
+    line-height:1.5;
+    color: #25a2c3;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+div h3{
+    padding-top:30rem;
+}
+
+
+#cerchio{
+    width:40rem;
+    height:40rem;
+    border-radius:50%;
+    background-image: url(../images/notebook.jpg);
+    display: inline-block;
+    background-position: center;
+}
+
+section{
+    background-color: #e22d0e;
+    color: white;
+    margin-bottom: 10rem;
+ 
+}
+
+section h4{
+    font-family: "Montserrat", sans-serif;
+    line-height:1.5;
+    font-weight: bold;
+    font-size:2rem;
+    margin: auto;
+}
+
+#mesi{
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+}
+
+#mario{
+    font-family: "Montserrat", sans-serif;
+    padding-top:2rem;
+    font-size:1.5rem;
+    padding-bottom:-1rem;
+}
+
+#CEO{
+    font-family: "Montserrat", sans-serif;
+    font-size:1rem;
+}
+
+
+
+#impara, #pc,#lavora{  /*forma contratta vista su internet*/
+    display: inline-block;
+    border:1px solid #dee1e3;
+    border-bottom-left-radius:3%;
+    border-bottom-right-radius:3%; 
+    margin-bottom:3rem;
+    
+
+}
+
+
+
+div p{
+    padding-bottom:3rem;
+}
+
+div h3{
+    padding-top:3rem;
+}
+
+footer{
+    background-color: #25a2c3;
+    color: #c8e7f0;
+}
+
+footer h3{
+    color: white;
+    font-size:2.5rem;
+    padding-bottom:1rem;
+}
+
+footer a{
+    color:#c8e7f0;
+}
+
+
+
+/*#PC{
+    border:solid lightgrey;
+    box-sizing:content-box;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%; 
+    margin-bottom: 40px;
+}*/
