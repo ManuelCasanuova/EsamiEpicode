@@ -1,0 +1,167 @@
+/* Base styling */
+html {
+    font-size: 62.5%; /* 1rem = 10px, consente dimensioni fluide */
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem; /* Font fluido */
+    line-height: 1.65;
+    text-align: center;
+    color: #393d41;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header div {
+    background-color: black;
+}
+
+#titolo {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    color: #25a2c3;
+    font-weight: bold;
+    font-size: 3rem; /* Sarà regolato nei media query */
+}
+
+/* Nav */
+header nav {
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* Button styling */
+nav button {
+    width: 80%; /* Adattato alla larghezza del contenitore */
+    height: 2.5rem;
+    margin-bottom: 2rem;
+    border: none;
+    color: white;
+    background-color: #f04c2f;
+    border-radius: 4%;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Headings */
+body h3 {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    color: #25a2c3;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+div h3 {
+    padding-top: 2rem;
+}
+
+/* Circle image */
+#cerchio {
+    width: 60%; /* Percentuale per rendere fluido */
+    aspect-ratio: 1 / 1; /* Mantiene il cerchio */
+    border-radius: 50%;
+    background-image: url(../images/notebook.jpg);
+    display: inline-block;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Section styling */
+section {
+    background-color: #e22d0e;
+    color: white;
+    padding: 2rem; /* Margini interni fluidi */
+}
+
+section h4 {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 2.5rem; /* Adattato nei media query */
+    margin: 0 auto;
+}
+
+/* Font settings */
+#mesi, #mario, #CEO {
+    font-family: "Montserrat", sans-serif;
+}
+
+#mesi {
+    font-style: italic;
+}
+
+#mario {
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+
+#CEO {
+    font-size: 1rem;
+}
+
+/* Cards */
+#impara, #pc, #lavora {
+    display: inline-block;
+    width: 80%; /* Adattato per schermi piccoli */
+    padding: 1rem;
+    border: 1px solid #dee1e3;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+    box-sizing: border-box;
+    margin-bottom: 2rem;
+}
+
+/* Footer styling */
+footer {
+    background-color: #25a2c3;
+    color: #c8e7f0;
+    padding: 2rem; /* Margini fluidi */
+}
+
+footer h3 {
+    color: white;
+    font-size: 2rem; /* Adattabile */
+    padding-bottom: 1rem;
+}
+
+footer a {
+    color: #c8e7f0;
+    text-decoration: none;
+}
+
+/* Media Query per schermi piccoli */
+@media (max-width: 450px) {
+    #titolo {
+        font-size: 2.5rem; /* Riduci il titolo */
+    }
+
+    nav button {
+        width: 90%; /* Più fluido */
+        height: 3rem;
+    }
+
+    section h4 {
+        font-size: 2rem; /* Riduci i titoli */
+    }
+
+    #cerchio {
+        width: 70%; /* Adattato per schermi piccoli */
+    }
+
+    #mario {
+        font-size: 1.5rem; /* Riduci il font */
+    }
+
+    footer h3 {
+        font-size: 1.8rem;
+    }
+
+    #impara, #pc, #lavora {
+        width: 90%; /* Occupano quasi tutta la larghezza */
+    }
+}
